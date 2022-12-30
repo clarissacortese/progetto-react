@@ -7,7 +7,7 @@ import Contacts from "./components/contacts/contacts";
 
 export default function App() {
   return (
-    <Router basename={process.env.REACT_APP_ROUTER_BASE || ""}>
+    <Router>
       <Background />
       <Navbar />
       <Routes>
