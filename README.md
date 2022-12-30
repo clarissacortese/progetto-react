@@ -4,6 +4,6 @@ This application was created with the aim of simplifying the management of one's
 
 ## Links:
 
-+ The link to access it is the following: https://clarissacortese.github.io/progetto-react/
++ The link to access it is the following: https://progetto-react-d30ad.web.app/
 + The songs used in this app are royalty free and were downloaded at the following URL: https://pixabay.com/music/
 + The form was created using: https://www.emailjs.com/
