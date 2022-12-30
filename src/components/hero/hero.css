@@ -1,0 +1,21 @@
+.listImg {
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: -8px;
+}
+
+.dark {
+    color: #A1E0FF;
+}
+
+.listImgDark {
+    display: none;
+}
+
+.dark .listImgDark {
+    display: block;
+}
+
+.dark .listImgLight {
+    display: none;
+}

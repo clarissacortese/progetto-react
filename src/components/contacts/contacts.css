@@ -1,0 +1,75 @@
+.form {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.input {
+    border-radius: 10px;
+    margin: 20px 20px;
+    min-height: 40px;
+    min-width: 240px;
+    border: 1px solid #610044;
+    background: none;
+    color: #610044;
+}
+
+.button {
+    min-width: 240px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #610044;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 8px #610044;
+}
+
+.button:hover {
+    background-color: #EC9DF5;
+    color: #610044;
+    box-shadow: 5px 5px 8px #610044;
+    font-weight: bold;
+}
+
+.button:active {
+    background-color: #610044;
+    color: white;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.dark .button {
+    background-color: #A1E0FF;
+    color: #010487;
+    box-shadow: 5px 5px 8px #010487;
+    font-weight: bold;
+}
+
+.dark .button:hover {
+    background-color: #010487;
+    color: #A1E0FF;
+    box-shadow: 5px 5px 8px #010487;
+    font-weight: bold;
+}
+
+.dark .button:active {
+    background-color: #A1E0FF;
+    color: #010487;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.dark .input {
+    border: 1px solid #A1E0FF;
+    background: none;
+    color: #A1E0FF;
+}

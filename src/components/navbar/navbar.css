@@ -1,0 +1,42 @@
+img {
+    max-height: 50px;
+    width: auto;
+}
+
+.imgDark {
+    display: none;
+}
+
+.nav-item {
+    margin: 30px 30px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #610044;
+}
+
+.menu:hover {
+    color: #010487;
+}
+
+.dark {
+    color: #A1E0FF
+}
+
+.dark .menu {
+    text-decoration: none;
+    color: #A1E0FF;
+}
+
+.dark .menu:hover {
+    color: #0095FF;
+}
+
+.dark .imgLight {
+    display: none;
+}
+
+.dark .imgDark {
+    display: block;
+}

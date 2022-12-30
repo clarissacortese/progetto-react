@@ -1,0 +1,36 @@
+.light #sfondo1{
+    filter: blur(50px);
+    fill: rgba(161,224,255,1);
+}
+
+.dark #sfondo1 {
+    filter: blur(50px);
+    fill: #010487;
+}
+
+.sfondo1 {
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    transform: matrix(1,0,0,1,0,0);
+    z-index: -1;
+}
+
+#sfondo2 {
+    filter: blur(50px);
+    fill: rgba(236,157,245,1);
+}
+
+.dark #sfondo2 {
+    filter: blur(50px);
+    fill: #010487;
+}
+
+.sfondo2 {
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    transform: matrix(1,0,0,1,0,0);
+    z-index: -1;
+    top: 700px;
+}

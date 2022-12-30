@@ -1,0 +1,51 @@
+.button-wrapper {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.songButton {
+    margin: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #610044;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 8px #610044;
+}
+
+.songButton:hover {
+    background-color: #EC9DF5;
+    color: #610044;
+    box-shadow: 5px 5px 8px #610044;
+}
+
+.songButton:active {
+    background-color: #610044;
+    color: white;
+    box-shadow: none;
+}
+
+.dark .songButton {
+    background-color: #A1E0FF;
+    color: #010487;
+    box-shadow: 5px 5px 8px #010487;
+}
+
+.dark .songButton:hover {
+    background-color: #010487;
+    color: #A1E0FF;
+    box-shadow: 5px 5px 8px #010487;
+}
+
+.dark .songButton:active {
+    background-color: #A1E0FF;
+    color: #010487;
+    box-shadow: none;
+}
+
+.player {
+    margin: 100px auto;
+}
